@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1A33601AEF625E002F1BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A335F1AEF625E002F1BC7 /* main.m */; };
+		EC1A33631AEF625E002F1BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33621AEF625E002F1BC7 /* AppDelegate.m */; };
+		EC1A33661AEF625E002F1BC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33651AEF625E002F1BC7 /* ViewController.m */; };
+		EC1A33691AEF625E002F1BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A33671AEF625E002F1BC7 /* Main.storyboard */; };
+		EC1A336B1AEF625E002F1BC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A336A1AEF625E002F1BC7 /* Images.xcassets */; };
+		EC1A336E1AEF625E002F1BC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1A336C1AEF625E002F1BC7 /* LaunchScreen.xib */; };
+		EC1A337A1AEF625E002F1BC7 /* MyHackerNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33791AEF625E002F1BC7 /* MyHackerNewsTests.m */; };
+		EC1A33851AEF7BC7002F1BC7 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33841AEF7BC7002F1BC7 /* SettingsTableViewController.m */; };
+		EC1A33881AEF7D25002F1BC7 /* HairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33871AEF7D25002F1BC7 /* HairlineView.m */; };
+		EC1A339D1AEF8447002F1BC7 /* License in Resources */ = {isa = PBXBuildFile; fileRef = EC1A338A1AEF8447002F1BC7 /* License */; };
+		EC1A339F1AEF8447002F1BC7 /* hn.json in Resources */ = {isa = PBXBuildFile; fileRef = EC1A338D1AEF8447002F1BC7 /* hn.json */; };
+		EC1A33A01AEF8447002F1BC7 /* HNComment.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A338F1AEF8447002F1BC7 /* HNComment.m */; };
+		EC1A33A11AEF8447002F1BC7 /* HNCommentLink.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33911AEF8447002F1BC7 /* HNCommentLink.m */; };
+		EC1A33A21AEF8447002F1BC7 /* HNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33931AEF8447002F1BC7 /* HNManager.m */; };
+		EC1A33A31AEF8447002F1BC7 /* HNPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33951AEF8447002F1BC7 /* HNPost.m */; };
+		EC1A33A41AEF8447002F1BC7 /* HNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33971AEF8447002F1BC7 /* HNUser.m */; };
+		EC1A33A51AEF8447002F1BC7 /* HNUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A33991AEF8447002F1BC7 /* HNUtilities.m */; };
+		EC1A33A61AEF8447002F1BC7 /* HNWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A339B1AEF8447002F1BC7 /* HNWebService.m */; };
+		EC9AC6C01AF214F10017D1AF /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9AC6BF1AF214F10017D1AF /* BrowserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1A33741AEF625E002F1BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1A33521AEF625E002F1BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1A33591AEF625E002F1BC7;
+			remoteInfo = MyHackerNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1A335A1AEF625E002F1BC7 /* MyHackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1A335E1AEF625E002F1BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A335F1AEF625E002F1BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1A33611AEF625E002F1BC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC1A33621AEF625E002F1BC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC1A33641AEF625E002F1BC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC1A33651AEF625E002F1BC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC1A33681AEF625E002F1BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1A336A1AEF625E002F1BC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC1A336D1AEF625E002F1BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC1A33731AEF625E002F1BC7 /* MyHackerNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHackerNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1A33781AEF625E002F1BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A33791AEF625E002F1BC7 /* MyHackerNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHackerNewsTests.m; sourceTree = "<group>"; };
+		EC1A33831AEF7BC7002F1BC7 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		EC1A33841AEF7BC7002F1BC7 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		EC1A33861AEF7D25002F1BC7 /* HairlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairlineView.h; sourceTree = "<group>"; };
+		EC1A33871AEF7D25002F1BC7 /* HairlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairlineView.m; sourceTree = "<group>"; };
+		EC1A338A1AEF8447002F1BC7 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		EC1A338D1AEF8447002F1BC7 /* hn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hn.json; sourceTree = "<group>"; };
+		EC1A338E1AEF8447002F1BC7 /* HNComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNComment.h; sourceTree = "<group>"; };
+		EC1A338F1AEF8447002F1BC7 /* HNComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNComment.m; sourceTree = "<group>"; };
+		EC1A33901AEF8447002F1BC7 /* HNCommentLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNCommentLink.h; sourceTree = "<group>"; };
+		EC1A33911AEF8447002F1BC7 /* HNCommentLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCommentLink.m; sourceTree = "<group>"; };
+		EC1A33921AEF8447002F1BC7 /* HNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNManager.h; sourceTree = "<group>"; };
+		EC1A33931AEF8447002F1BC7 /* HNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNManager.m; sourceTree = "<group>"; };
+		EC1A33941AEF8447002F1BC7 /* HNPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNPost.h; sourceTree = "<group>"; };
+		EC1A33951AEF8447002F1BC7 /* HNPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNPost.m; sourceTree = "<group>"; };
+		EC1A33961AEF8447002F1BC7 /* HNUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNUser.h; sourceTree = "<group>"; };
+		EC1A33971AEF8447002F1BC7 /* HNUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNUser.m; sourceTree = "<group>"; };
+		EC1A33981AEF8447002F1BC7 /* HNUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNUtilities.h; sourceTree = "<group>"; };
+		EC1A33991AEF8447002F1BC7 /* HNUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNUtilities.m; sourceTree = "<group>"; };
+		EC1A339A1AEF8447002F1BC7 /* HNWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWebService.h; sourceTree = "<group>"; };
+		EC1A339B1AEF8447002F1BC7 /* HNWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWebService.m; sourceTree = "<group>"; };
+		EC1A339C1AEF8447002F1BC7 /* libHN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libHN.h; sourceTree = "<group>"; };
+		EC9AC6BE1AF214F10017D1AF /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		EC9AC6BF1AF214F10017D1AF /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1A33571AEF625E002F1BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A33701AEF625E002F1BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1A33511AEF625E002F1BC7 = {
+			isa = PBXGroup;
+			children = (
+				EC1A33891AEF8447002F1BC7 /* libHN */,
+				EC1A335C1AEF625E002F1BC7 /* MyHackerNews */,
+				EC1A33761AEF625E002F1BC7 /* MyHackerNewsTests */,
+				EC1A335B1AEF625E002F1BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1A335B1AEF625E002F1BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A335A1AEF625E002F1BC7 /* MyHackerNews.app */,
+				EC1A33731AEF625E002F1BC7 /* MyHackerNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1A335C1AEF625E002F1BC7 /* MyHackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A33611AEF625E002F1BC7 /* AppDelegate.h */,
+				EC1A33621AEF625E002F1BC7 /* AppDelegate.m */,
+				EC1A33641AEF625E002F1BC7 /* ViewController.h */,
+				EC1A33651AEF625E002F1BC7 /* ViewController.m */,
+				EC9AC6BE1AF214F10017D1AF /* BrowserViewController.h */,
+				EC9AC6BF1AF214F10017D1AF /* BrowserViewController.m */,
+				EC1A33831AEF7BC7002F1BC7 /* SettingsTableViewController.h */,
+				EC1A33841AEF7BC7002F1BC7 /* SettingsTableViewController.m */,
+				EC1A33861AEF7D25002F1BC7 /* HairlineView.h */,
+				EC1A33871AEF7D25002F1BC7 /* HairlineView.m */,
+				EC1A33671AEF625E002F1BC7 /* Main.storyboard */,
+				EC1A336A1AEF625E002F1BC7 /* Images.xcassets */,
+				EC1A336C1AEF625E002F1BC7 /* LaunchScreen.xib */,
+				EC1A335D1AEF625E002F1BC7 /* Supporting Files */,
+			);
+			path = MyHackerNews;
+			sourceTree = "<group>";
+		};
+		EC1A335D1AEF625E002F1BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A335E1AEF625E002F1BC7 /* Info.plist */,
+				EC1A335F1AEF625E002F1BC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1A33761AEF625E002F1BC7 /* MyHackerNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A33791AEF625E002F1BC7 /* MyHackerNewsTests.m */,
+				EC1A33771AEF625E002F1BC7 /* Supporting Files */,
+			);
+			path = MyHackerNewsTests;
+			sourceTree = "<group>";
+		};
+		EC1A33771AEF625E002F1BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A33781AEF625E002F1BC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1A33891AEF8447002F1BC7 /* libHN */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A338A1AEF8447002F1BC7 /* License */,
+				EC1A338C1AEF8447002F1BC7 /* Source */,
+			);
+			path = libHN;
+			sourceTree = "<group>";
+		};
+		EC1A338C1AEF8447002F1BC7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A338D1AEF8447002F1BC7 /* hn.json */,
+				EC1A338E1AEF8447002F1BC7 /* HNComment.h */,
+				EC1A338F1AEF8447002F1BC7 /* HNComment.m */,
+				EC1A33901AEF8447002F1BC7 /* HNCommentLink.h */,
+				EC1A33911AEF8447002F1BC7 /* HNCommentLink.m */,
+				EC1A33921AEF8447002F1BC7 /* HNManager.h */,
+				EC1A33931AEF8447002F1BC7 /* HNManager.m */,
+				EC1A33941AEF8447002F1BC7 /* HNPost.h */,
+				EC1A33951AEF8447002F1BC7 /* HNPost.m */,
+				EC1A33961AEF8447002F1BC7 /* HNUser.h */,
+				EC1A33971AEF8447002F1BC7 /* HNUser.m */,
+				EC1A33981AEF8447002F1BC7 /* HNUtilities.h */,
+				EC1A33991AEF8447002F1BC7 /* HNUtilities.m */,
+				EC1A339A1AEF8447002F1BC7 /* HNWebService.h */,
+				EC1A339B1AEF8447002F1BC7 /* HNWebService.m */,
+				EC1A339C1AEF8447002F1BC7 /* libHN.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1A33591AEF625E002F1BC7 /* MyHackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1A337D1AEF625E002F1BC7 /* Build configuration list for PBXNativeTarget "MyHackerNews" */;
+			buildPhases = (
+				EC1A33561AEF625E002F1BC7 /* Sources */,
+				EC1A33571AEF625E002F1BC7 /* Frameworks */,
+				EC1A33581AEF625E002F1BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHackerNews;
+			productName = MyHackerNews;
+			productReference = EC1A335A1AEF625E002F1BC7 /* MyHackerNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1A33721AEF625E002F1BC7 /* MyHackerNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1A33801AEF625E002F1BC7 /* Build configuration list for PBXNativeTarget "MyHackerNewsTests" */;
+			buildPhases = (
+				EC1A336F1AEF625E002F1BC7 /* Sources */,
+				EC1A33701AEF625E002F1BC7 /* Frameworks */,
+				EC1A33711AEF625E002F1BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1A33751AEF625E002F1BC7 /* PBXTargetDependency */,
+			);
+			name = MyHackerNewsTests;
+			productName = MyHackerNewsTests;
+			productReference = EC1A33731AEF625E002F1BC7 /* MyHackerNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1A33521AEF625E002F1BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = GM;
+				TargetAttributes = {
+					EC1A33591AEF625E002F1BC7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EC1A33721AEF625E002F1BC7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EC1A33591AEF625E002F1BC7;
+					};
+				};
+			};
+			buildConfigurationList = EC1A33551AEF625E002F1BC7 /* Build configuration list for PBXProject "MyHackerNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1A33511AEF625E002F1BC7;
+			productRefGroup = EC1A335B1AEF625E002F1BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1A33591AEF625E002F1BC7 /* MyHackerNews */,
+				EC1A33721AEF625E002F1BC7 /* MyHackerNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1A33581AEF625E002F1BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A33691AEF625E002F1BC7 /* Main.storyboard in Resources */,
+				EC1A336E1AEF625E002F1BC7 /* LaunchScreen.xib in Resources */,
+				EC1A339D1AEF8447002F1BC7 /* License in Resources */,
+				EC1A339F1AEF8447002F1BC7 /* hn.json in Resources */,
+				EC1A336B1AEF625E002F1BC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A33711AEF625E002F1BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1A33561AEF625E002F1BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A33A11AEF8447002F1BC7 /* HNCommentLink.m in Sources */,
+				EC1A33A51AEF8447002F1BC7 /* HNUtilities.m in Sources */,
+				EC1A33A01AEF8447002F1BC7 /* HNComment.m in Sources */,
+				EC1A33851AEF7BC7002F1BC7 /* SettingsTableViewController.m in Sources */,
+				EC1A33661AEF625E002F1BC7 /* ViewController.m in Sources */,
+				EC9AC6C01AF214F10017D1AF /* BrowserViewController.m in Sources */,
+				EC1A33631AEF625E002F1BC7 /* AppDelegate.m in Sources */,
+				EC1A33A21AEF8447002F1BC7 /* HNManager.m in Sources */,
+				EC1A33601AEF625E002F1BC7 /* main.m in Sources */,
+				EC1A33A61AEF8447002F1BC7 /* HNWebService.m in Sources */,
+				EC1A33881AEF7D25002F1BC7 /* HairlineView.m in Sources */,
+				EC1A33A31AEF8447002F1BC7 /* HNPost.m in Sources */,
+				EC1A33A41AEF8447002F1BC7 /* HNUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A336F1AEF625E002F1BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A337A1AEF625E002F1BC7 /* MyHackerNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1A33751AEF625E002F1BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1A33591AEF625E002F1BC7 /* MyHackerNews */;
+			targetProxy = EC1A33741AEF625E002F1BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1A33671AEF625E002F1BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1A33681AEF625E002F1BC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1A336C1AEF625E002F1BC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1A336D1AEF625E002F1BC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1A337B1AEF625E002F1BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC1A337C1AEF625E002F1BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1A337E1AEF625E002F1BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHackerNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1A337F1AEF625E002F1BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHackerNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1A33811AEF625E002F1BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyHackerNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHackerNews.app/MyHackerNews";
+			};
+			name = Debug;
+		};
+		EC1A33821AEF625E002F1BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyHackerNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHackerNews.app/MyHackerNews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1A33551AEF625E002F1BC7 /* Build configuration list for PBXProject "MyHackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A337B1AEF625E002F1BC7 /* Debug */,
+				EC1A337C1AEF625E002F1BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1A337D1AEF625E002F1BC7 /* Build configuration list for PBXNativeTarget "MyHackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A337E1AEF625E002F1BC7 /* Debug */,
+				EC1A337F1AEF625E002F1BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1A33801AEF625E002F1BC7 /* Build configuration list for PBXNativeTarget "MyHackerNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A33811AEF625E002F1BC7 /* Debug */,
+				EC1A33821AEF625E002F1BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1A33521AEF625E002F1BC7 /* Project object */;
+}
